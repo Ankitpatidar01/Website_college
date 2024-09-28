@@ -1,0 +1,60 @@
+.Wrapper h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color:#6f106b;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+body{
+    background-color: #eaebff;
+    padding: 200px;
+    margin-left: 350px;
+   
+}
+    
+h2{
+    background-color: #dcdcfe;
+    margin: 10px;
+}
+div{
+    margin: 10px;
+    margin-bottom: 10px;
+    display:block;
+    text-align: center;
+}
+div button:hover{
+    background-color: gray;
+    color: black;
+}
+ div button:active{
+    background-color: blue;
+    color:white;
+}
+label{
+    width: 200px;
+    text-align: justify;
+    display:inline-block;
+}
+button{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: #6f106b;
+}
+.Wrapper{
+  width: 420px;
+  background:#dcdcfe ;
+  color: #ffffff;  
+  border-color:#9999d2;
+  border-style: outset;
+  display: flex;
+  flex-direction: column;
+  
+}
+.Name {
+ 
+    justify-content: space-between;
+}
